@@ -1,7 +1,7 @@
 html,
 body {
   position: relative;
-  height: 100%;
+  height: 100%!important;
 }
 li {
   list-style: none;
@@ -195,13 +195,8 @@ body {
 #content3 .swiper-slide {
   background-position: center;
   background-size: cover;
-<<<<<<< HEAD
   width: 350px;
   height: 350px;
-=======
-  width: 300px;
-  height: 300px;
->>>>>>> 7dfe64870ac065a60d0502a6f44f0c89635a67ef
 }
 #content3 .swiper-slide img {
   width: 100%;

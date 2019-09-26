@@ -8,8 +8,10 @@
     <title>个人介绍</title>
     <link rel="stylesheet" href="./css/swiper.min.css">
     <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/sweetalert2.min.css">
     <script src="./js/jquery-3.4.1.min.js"></script>
     <script src="./js/swiper.min.js"></script>
+	<script src="./js/sweetalert2.min.js"></script>
 </head>
 
 <body>
@@ -55,6 +57,19 @@
 		</div>
     </div>
 </div>
+<script>
+
+	window.onload = function () {
+	    setTimeout(()=>{
+            swal({
+                title: '提示',
+                text: "因访问的服务器是外网，所以图片加载过慢，请耐心等待",
+                animation: false,
+                customClass: 'animated tada'
+            })
+        },500)
+	}
+</script>
 <!-- Initialize Swiper -->
 <script>
     var menuButton = document.querySelector('.menu-button');
