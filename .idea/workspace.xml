@@ -11,7 +11,12 @@
   <component name="ProjectId" id="1RNijelgUJdrlzsbeqjzVvzEViv" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/js" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\shangcj1992.github.io\js" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -35,7 +40,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1569514090237</updated>
-      <workItem from="1569514091366" duration="1147000" />
+      <workItem from="1569514091366" duration="1194000" />
+      <workItem from="1569541594579" duration="516000" />
     </task>
     <servers />
   </component>

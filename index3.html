@@ -47,25 +47,25 @@
                 <div class="wrapper">
                     <ul id="sb-slider" class="sb-slider">
                         <li class="swiper-slide">
-                            <img src="./img/1.jpg" alt="image1"/>
+                            <img src="./img/1.jpg" alt="image1" data-src="./img/timg.jpg"/>
                         </li>
                         <li class="swiper-slide">
-                            <img src="./img/2.jpg" alt="image2"/>
+                            <img src="./img/2.jpg" alt="image2" data-src="./img/timg.jpg"/>
                         </li>
                         <li class="swiper-slide">
-                            <img src="./img/3.jpg" alt="image1"/>
+                            <img src="./img/3.jpg" alt="image1" data-src="./img/timg.jpg"/>
                         </li>
                         <li class="swiper-slide">
-                            <img src="./img/4.jpg" alt="image1"/>
+                            <img src="./img/4.jpg" alt="image1" data-src="./img/timg.jpg"/>
                         </li>
                         <li class="swiper-slide">
-                            <img src="./img/5.jpg" alt="image1"/>
+                            <img src="./img/5.jpg" alt="image1" data-src="./img/timg.jpg"/>
                         </li>
                         <li class="swiper-slide">
-                            <img src="./img/6.jpg" alt="image1"/>
+                            <img src="./img/6.jpg" alt="image1" data-src="./img/timg.jpg"/>
                         </li>
                         <li class="swiper-slide">
-                            <img src="./img/7.jpg" alt="image1"/>
+                            <img src="./img/7.jpg" alt="image1" data-src="./img/timg.jpg"/>
                         </li>
                     </ul>
                     <div id="nav-arrows" class="nav-arrows">
@@ -82,6 +82,7 @@
         </div>
     </div>
 </div>
+<script src="./js/lazyload.js"></script>
 <script>
     $("#sb-slider").on('click','.swiper-slide img',function () {
        var src = $(this).attr('src');
