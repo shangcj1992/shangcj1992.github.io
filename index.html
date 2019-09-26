@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport"
+          content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+    <title>个人介绍</title>
+    <link rel="stylesheet" href="./css/swiper.min.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="./js/jquery-3.4.1.min.js"></script>
+    <script src="./js/swiper.min.js"></script>
+</head>
+
+<body>
+<!-- Swiper -->
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide menu">
+			<div class="zhezhao"></div>
+			<ul>
+				<li class="active">
+					<a href="index.html">介绍</a>
+				</li>
+				<li>
+					<a href="index2.html">爱好</a>
+				</li>
+				<li>
+					<a href="index3.html">照片</a>
+				</li>
+			</ul>
+		</div>
+        <div class="swiper-slide content content1">
+            <div class="menu-button">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+			<div id="content1">
+				<h2 class="title">欢迎观看我的个人网页</h2>
+				<p class="title2">在这里做一下自我介绍：</p>
+				<ul>
+					<li>姓名：商长君</li>
+					<li>年龄：28岁</li>
+					<li>生日：1992-02-04</li>
+					<li>星座：水瓶座</li>
+					<li>身高：176CM</li>
+					<li>体重：65KG</li>
+					<li>职业：程序员（前端开发）</li>
+					<li>来自：黑龙江牡丹江</li>
+				</ul>
+<!--				<img src="./img/home-image.jpg" alt="">-->
+			</div>
+
+		</div>
+    </div>
+</div>
+<!-- Initialize Swiper -->
+<script>
+    var menuButton = document.querySelector('.menu-button');
+    var openMenu = function () {
+        swiper.slidePrev();
+    };
+    var swiper = new Swiper('.swiper-container', {
+        slidesPerView: 'auto',
+        initialSlide: 1,
+        resistanceRatio: 0,
+        slideToClickedSlide: true,
+        on: {
+            slideChangeTransitionStart: function () {
+                var slider = this;
+                if (slider.activeIndex === 0) {
+                    menuButton.classList.add('cross');
+                    // required because of slideToClickedSlide
+                    menuButton.removeEventListener('click', openMenu, true);
+                } else {
+                    menuButton.classList.remove('cross');
+                }
+            }
+            , slideChangeTransitionEnd: function () {
+                var slider = this;
+                if (slider.activeIndex === 1) {
+                    menuButton.addEventListener('click', openMenu, true);
+                }
+            },
+        }
+    });
+</script>
+
+
+</body>
+</html>
