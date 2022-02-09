@@ -11,7 +11,13 @@
   <component name="ProjectId" id="1RNijelgUJdrlzsbeqjzVvzEViv" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/js" />
+    <property name="last_opened_file_path" value="E:/TMT" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -42,6 +48,8 @@
       <updated>1569514090237</updated>
       <workItem from="1569514091366" duration="1194000" />
       <workItem from="1569541594579" duration="516000" />
+      <workItem from="1570604028786" duration="2437000" />
+      <workItem from="1570691748044" duration="34000" />
     </task>
     <servers />
   </component>
