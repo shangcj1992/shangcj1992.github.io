@@ -172,13 +172,13 @@
 	<img src="img/HappyBirthday.png">
 </div>
 <div class="button-style1">
-	<a href="Memories.html" class="lk1">
+	<a class="lk1" id="ilike">
 		<div class="link1">
 			<div class="bt1">
 				我很喜欢
 			</div>
 		</div>
-	</a>    
+	</a>
 </div>
 <div class="button-style2">
 	<a class="lk2">
@@ -187,7 +187,7 @@
 				我不喜欢
 			</div>
 		</div>
-	</a> 
+	</a>
 </div>
 <ul class="bg-bubbles">
       <li></li>
@@ -202,7 +202,7 @@
       <li></li>
     </ul>
   <script src='js/jquery.js'></script>
-  <audio src="music/ll.mp3" id="audio" autoplay="autoplay" loop="loop">
+<audio autoplay="autoplay" loop="loop" id="audio" autoplay="autoplay" ><source src="music/ll.mp3"></audio>
 </body>
   <script>
     document.addEventListener('click', function () {
@@ -212,9 +212,13 @@
         }
         audioAutoPlay();
     });
+    var ilike = document.getElementById('ilike');
     var iDontLike = document.getElementById('idontlike');
     iDontLike.addEventListener("click",function(){
-      alert('臭不要脸是不是，我做的还敢不喜欢 🐷🐷🐷')
+      alert('过分了是不是，我做的还敢不喜欢 🐷🐷🐷')
+    })
+    ilike.addEventListener("click",function(){
+        alert('谢谢你的喜欢。荟聚发现一家餐厅很美，希望与你共进晚餐。')
     })
   </script>
 </html>

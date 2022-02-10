@@ -1,17 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="91670355-745a-49c9-ae12-49f9ec93d3ac" name="默认的" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="91670355-745a-49c9-ae12-49f9ec93d3ac" name="默认的" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BirthdayCake.html" beforeDir="false" afterPath="$PROJECT_DIR$/BirthdayCake.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Memories.html" beforeDir="false" afterPath="$PROJECT_DIR$/Memories.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styless.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styless.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/img1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/img2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/img3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/img4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/img5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/img6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/music/mm.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/music/mm.mp3" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1RNijelgUJdrlzsbeqjzVvzEViv" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="E:/TMT" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -23,18 +45,6 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\shangcj1992.github.io\js" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -50,10 +60,12 @@
       <workItem from="1569541594579" duration="516000" />
       <workItem from="1570604028786" duration="2437000" />
       <workItem from="1570691748044" duration="34000" />
+      <workItem from="1644464803366" duration="1649000" />
+      <workItem from="1644474898442" duration="2007000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
 </project>
